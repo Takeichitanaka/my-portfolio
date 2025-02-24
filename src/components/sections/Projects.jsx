@@ -74,7 +74,7 @@ const ToggleButton = styled.div`
     border-radius: 4px;
   }
   ${({ active, theme }) =>
-    active &&
+    active == "true" &&
     `
   background:  ${theme.primary + 20};
   `}
@@ -109,28 +109,28 @@ const Projects = ({ openModal, setOpenModal }) => {
         </Desc>
         <ToggleButtonGroup>
           <ToggleButton
-            active={toggle === "all"}
+            active={(toggle === "all").toString()}
             onClick={() => setToggle("all")}
           >
             ALL
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "web app"}
+            active={(toggle === "web app").toString()}
             onClick={() => setToggle("web app")}
           >
             WEB APP"S
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "android app"}
+            active={(toggle === "android app").toString()}
             onClick={() => setToggle("android app")}
           >
             ANDROID APP'S
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "machine learning"}
+            active={(toggle === "machine learning").toString()}
             onClick={() => setToggle("machine learning")}
           >
             MACHINE LEARNING
@@ -138,8 +138,9 @@ const Projects = ({ openModal, setOpenModal }) => {
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&
-            projects.map((project) => (
+            projects.map((project, index) => (
               <ProjectCard
+                key={index}
                 project={project}
                 openModal={openModal}
                 setOpenModal={setOpenModal}

@@ -409,27 +409,7 @@ export const education = [
   },
 ];
 
-export const projects = [
-  {
-    id: 11,
-    title: "DecisionHub",
-    date: "Jan 2024 - Dec 2023",
-    description:
-      "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
-    image:
-      "https://github.com/StrongBlue0703/DecisionHub/raw/master/assets/testRule.jpg",
-    tags: [
-      "React Js",
-      "PostgressSQL",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "React Flow",
-    ],
-    category: "web app",
-    github: "https://github.com/StrongBlue0703/DecisionHub",
-    webapp: "https://decisionhub.netlify.app/",
-  },
+export const projects = [  
   {
     id: 9,
     title: "Trackify",
@@ -501,34 +481,7 @@ export const projects = [
     category: "web app",
     github: "https://github.com/StrongBlue0703/Project-Management-App",
     webapp: "https://vexa-app.netlify.app/",
-  },
-  {
-    id: 2,
-    title: "Brain Tumor Detection",
-    date: "Jan 2023 - Mar 2023",
-    description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-    image:
-      "https://github.com/StrongBlue0703/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/StrongBlue0703/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
-    member: [
-      {
-        name: "Strong Blue",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/StrongBlue0703/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
-  },
+  }, 
   {
     id: 3,
     title: "Buckoid",
