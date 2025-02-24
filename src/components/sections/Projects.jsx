@@ -74,7 +74,7 @@ const ToggleButton = styled.div`
     border-radius: 4px;
   }
   ${({ active, theme }) =>
-    active == "true" &&
+    active === "true" &&
     `
   background:  ${theme.primary + 20};
   `}
