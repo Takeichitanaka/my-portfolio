@@ -17,6 +17,41 @@ export const Bio = {
 
 export const skills = [
   {
+    title: "Language",
+    skills: [
+       {
+        name: "JavaScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+       {
+        name: "TypeScript",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAOVBMVEUvdsQwd8Uwd8UxeMYxeMYwd8YrdcUhccSCqdrE1u1nl9KcuuHa5vRRi83///9zoNazyujz9/wWbsK86njPAAAABnRSTlMJnvr//b+KEDzrAAAAsElEQVR4AeXSAQrDIAyFYdtseVrTZ+r9Dzstc6xgd4H9QAA+QMWEsKwybV2ayUNueoZVbnsE+dGfoWKkIoC0oQMR02hTZGulXQdmjiKMZx/U4u7k0eaeSStbtIFNa8VBa7MmslQFrrftKAInTarKDHU/SKatzlBQutIxQ4HEzhET1Ma1HzxBLQLUbY5Ih8dsZL4g38gzU5Gv1XTP6E/JycwjOi4fBPD1QedSh+f9wr8AYsMQ67mSxS4AAAAASUVORK5CYII=",
+      },
+       {
+        name: "Solidity",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAY1BMVEUrJHwoIXsmH3o5MoRPSJBPSZAyK4CEf7GppMefm8JoY6AuJ35bVpa8uNPMyN3AvNa/u9WLhbZJQoyVkL3X0+PSzuC0sM+cl8FuaKSkoMY6NITGwtmwq8x4cqnOyt13cahBOohOG48tAAAA50lEQVR4AayRNxbDIBBEDZLISQGvsnT/UxI6A6Xn0c2m+Xz+IYSzUNPr+qGPr2t5hLIkLmRtYqWNddaxcUJ147x4q/UXYK1asTDeG6c3gHlARePOFu/9cQIAv0i50dzG3Pp6rut6dvRrTudh7UGxTKqWPtFjL44bGjFffrg1GqQJYXXwong17VCDHhUoDUj9tTqS+w/+ttbGo18Wj35KR2ZhmgKdEy4I5fSXTiiMwr+d5OIAcB6R4cL2Eu4wA2zaJfwCV0tXgK/W1vuZ1B86jcxZZ41OG6tWwVkSJU0IYdAExog/aVIOAGLLDr3i5dKBAAAAAElFTkSuQmCC",
+      },
+       {
+        name: "Python",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAh1BMVEVHcEwBVJc3caE2bJdKir3z2mL/6m05daZAfa5Jd5nsyUUqbKFHZ3flw0Towzv+2Uz842rmwTgANYDeuzlFgrL/6nD94WL20ETvxzf50T5Jh7lAfKxAf7E9eqv/5GX/4Fz/6HH/3VNFhbc1cKD/2kowapr/1Dj/10H+/v786a2dt851nL7c5OukoiX2AAAAHHRSTlMAf0dz/ovF/qRkVcoZX2noqUpnMo7r88Ww1sbqk9MnjgAAAR1JREFUKJFl0etygyAQBWCCEIJGozE1TWu9C8b2/Z+vsEscA+ef882RXSBky5nKKJL0TMJINrBhGOr6JwmYMrYCmQhfb8PfstYWhRhlgOvya3vCYBRgPWJPjAHSEwTsDeVpC9h8zfOc41RfjMES7p/jPF8/uq6r4DSwGocBQ2y4Qay5JcAsNk1zMZcW2iwNtW1rr2Yz4eyQg/UlkS9LDi4SrO/7AtGY5EeXCmr9NMWE4qDRscM0rjZNuiQEl0h3BLVJa7PKNxzI/ZrWd4ORHRTwVQNTqrBXlJgdLL79UqlP9yJSUg5WZbFNmmVZsXsZjqddbHTqvSffJmmVynx0p6nn8gwwdZMAFh6SOy6n1DbnW/eB9PDHcSnjotx//wNQ0jN2CWQnkAAAAABJRU5ErkJggg==",
+      },
+       {
+        name: "Go",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA5FBMVEX////3+Pju7++fpqhbam4kPkUUMzr09PV5hIcQMzsYNz4/U1nS1daIkpQnOT4tOTw7V19HdYJOhJNRjJzf4eJKXGFreHw3S1ExQERCbHdctcxq3/566v955/924f4+XGUnQUh98P9bvdeP7v+78v+S5v6n6/9m0e5z2fVbqsB45f/U9//h8/nr+v/Ex8gjVWLF8f+0ubtaorYAAAA7OThLSknJwsCdlZMaBgDb/v8cMzlZn7J5eHhnYF5xuc5SVlfOm4WHX04cHBydr7TKhmjJjXKTucRtiZC2qqXSu7KZz9/H1NgwLrv1AAABMElEQVR4AVTMVWLDQBADUBkbZl7HzBBmZrj/hbp20e9zRhJSGIZBGsMCYDleEBMCzyWHD1CZbC5fKIqlcqVaq9dr1Uq5JBYbzVy2BXBCu9IRyt0ekfoJSe51y0JH6ahFNLuS1mvrhmlaRKaIZVuSrjia226D9/Sq6wegwvgbAYh8qdeVq00Mho7kjpAICIl/FJElRxwD4/bEB1WYzhjZBsDMpwvTr5c4UKWqAWo2nS6NeIKbTlfrfrUEit1s+6B20+nCMJOJ6T7wtxsWQGMz8SNQ4wF6B8TfMSx/sml8Py0kjtPpDrER+feU5QBgT+fL5XwKo9AmcupJCLne7tTtQYgsp5+U/ny936+nI8f8bfrpkwAIPicthyEJAV7e3l5yuCTl1NXlsEjCwYiTNCIkCQCKFFS1ilhgAwAAAABJRU5ErkJggg==",
+      },
+       {
+        name: "Rust",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAABMklEQVR4AX3SIWyDUBRG4SOr6+aaLMEjKnGVaDRyqaxE1KDRVYhZ7ByOBItCdRaPQD13ZggZabbjbj735+I/7TEsf+Bg0t6y4eDwgpNkAJDh5B6JAZ5PgJgdFhVQjGMUDc8SqD5+YQmXWR2fasjguuE3rNfaHehX9J3flZqDKtqzj9QZ+FLUS3KPbwAfeR4DTJ+3c6SiFx4BAVRPwIw150W0gbgXoH7UBVDYvcFDMRSgga1c9cB1EefLhscjAL0OR86T6ABBAdQKSBVoFQXKzxqgbeYZoC4AFlFTtgZZi19HGKxYW0cIEfR917bt16xd1/cnWFTUCUgPiWvpWw4MKxpKIjeMjbgGXdEs585tVB0LKvJk/ya7dIetnADgROjcoza+P7KkwUZfUGfnyVm38J9+AFWi3h6D0HjUAAAAAElFTkSuQmCC",
+      },
+    ]
+  },
+  {
     title: "Frontend",
     skills: [
       {
@@ -37,37 +72,42 @@ export const skills = [
       {
         name: "Angular Js",
         image:
-          "https://camo.githubusercontent.com/8886130b3d8aba95dbdd7c4f9a41029606424cc06d1873c1ced87dd55a222fef/68747470733a2f2f616e67756c61722e696f2f6173736574732f696d616765732f6c6f676f732f616e67756c61722f616e67756c61722e737667",
+          "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5RUMBCgoKDQwNGg8PGjclHyU3Nzc3NzcwNzc3Nzc3LTc3Nzc3Nzc3Ljc3Nzc3Nzg3Nzc3Nzc3Nzc3NzcrNzU3NzItLf/AABEIABwAHAMBEQACEQEDEQH/xAAZAAACAwEAAAAAAAAAAAAAAAAEBgECBwP/xAAvEAACAQMCBAQDCQAAAAAAAAABAgMEBREAEgYhMVETImGBQVKxBxQVI0JxgpGh/8QAGwEAAgIDAQAAAAAAAAAAAAAABQYDBAECBwD/xAAoEQABAwIFAwQDAAAAAAAAAAABAAIDBBESEyEx8AVxwVFhkdEiQbH/2gAMAwEAAhEDEQA/ADrZa626zGKhhMhXG9icKme59jpilmZELuKf6iqhpm4pTbyqX2gFprPubVCzTogMuweVGPPaO/LBzy669TzZgxWsFDDUGojzALA7e/uulRwrcKm1w3K04raeRMlE5SIehGPjg5HI+2p462Jkhjl/Ej4Qx9cxshjk0I+EmtUAnro0I1kv1WlcCXKK3Q3qqnPkigjfHzEFsAepJA99JlWcZaFP1mndO6GNu5JH8QfDVok4mmutVVuNxjYK56eO/MH9h29RrY1GVhDeBb9SqG0TY42caPtE/Zxe2pZq60VRKEq00St+l1HnX+hn+LatV8AlY2ZvY9jtzshfVoAbSt56c7LJGdgRjtpzDRZbOOqZjVyJFJErkRy7d4+bHMf7rnT5E25YLg4jUeU7cPcF2O+2qGq/E55Jig8ZImT8tviuCuR76iEzgdEArusVdLMYzGAP1e+o9d7JR4jp6SxX4JYriahIkB8TIJR+YZcgYPL640e6fNmtwyBZGbUwY5mYSeXSw8WG5DTO1+ipubqjZnPfXNHuKcWhRBNIm/ZI6b1KNtYjcp6g+mogdVKWtda42VdGKJ5uqdS0EKCAdNkLiWJclADl/9k=",
       },
       {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        name: "Vue.js",
+        image:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAhFBMVEX///+44Myw3cetyL+rsbjh4+XB5NIlsnY1tX0lOVQmPlUhOlNFV2lewJI+t4FCuINCu4Q9kHQ0P1s1SV6zub/f8edDvoU2VWGDzKg/pHs0PFuLlJ4rs3k5bGg1RV0ML0rp6+0vRFpteYY7hHDT699wxZ0+mXfr9vA3X2SZ1LdAq346d2zD7XyeAAABIklEQVR4Aa3RBbaDUAxF0Vt/aCh1N+rzn99Pgua77XqBLLIO/q7VFp2u6EH19EenLVroD5zwfN8PQqgw4B+eE4M+EMVElAzT0WgUjMHGAX9Nhwn/HUcAJgNi09mIBWDBiM2mxAYTsLmTEYsl/+2vgJXPX5YLGeDmUGsdsdnygd1+v+OP7UYHrJFrOxJyF4fj8SB3QMK1USCRnLZyhhzfnhISKGVrPWNU0ePrDJWzrnpJRyq96Ipn1K75qrftiG1v+YpXNNwdscdyxJYPYu4Ow8Uy4skjtk8ZEDtY/TUJOYHEug+rSlJHsKokzQjWPF81X3EOq06SJHkEyyQxESyqwLJJbARLkmgEyybRCJZNohEsm0QifKK1XrfwqSjC57IM/+0FV60eh/8r7TcAAAAASUVORK5CYII="
       },
+      // {
+      //   name: "HTML",
+      //   image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+      // },
+      // {
+      //   name: "CSS",
+      //   image:
+      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+      // },
       {
-        name: "CSS",
+        name: "Tailwind CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAPFBMVEX////G6fxsyvk/v/g4vfhhyPmz4vuK1PoAtfckufgvu/hTxPn6/f+h2/tGwPjS7v255fxMwviT1/qn3vsZjXhWAAAAbElEQVR4AeWOCQqAMAwEq11r06b3//9qAwiI0QfowHINC2N+yLJabE53uycgUGTtF11CmDqLLVdZ57iJhSt9V+4cCQB5a1RGJgr9FrrW866GbmpoGylISlNC3RxnsbY+hLbX0GSJIKE6zOajHN4ZA8/fNs9XAAAAAElFTkSuQmCC",
       },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
+     
       {
         name: "Bootstrap",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
-      {
-        name: "Material UI",
-        image:
-          "data:image/png;base64,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",
-      },
-      {
-        name: "Flutter",
-        image:
-          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
-      },
+      // {
+      //   name: "Material UI",
+      //   image:
+      //     "data:image/png;base64,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",
+      // },
+      // {
+      //   name: "Flutter",
+      //   image:
+      //     "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+      // },
     ],
   },
   {
@@ -87,38 +127,38 @@ export const skills = [
         image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
       },
       {
-        name: "Python",
+        name: "Nestjs",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAANlBMVEVHcEzgI07gI07gI07gI07gI07gI07gI07gI07gI07gI07gI07gI07gI07gI07gI07gI07gI04MRxOkAAAAEnRSTlMA9GdXHbN6/0ieBuA5jcIT0C5JiDMVAAAAuElEQVR4AWIgCTAC6qALIwZiIAiCKxzRU/7JuvyMXSwdW+f1JURI+pABii5cMEDNrQOIOimVi3D+M1xlWS185K6JqL/KQy8Lg6TEQ5YDwsss1GhH/ob/Lx/mrgNjtLHnbtRf01/J3OgscVV05rgYdNG/ld0aT5wYbcBLQzOE5/UTSC5gaNsXSasBTAcQPItktMvb4pGZKUk7u12Mv4zTRXPTtkyXR72INkGW0asGTrHoTTZRX6ZBZz8K+QvOS9frRQAAAABJRU5ErkJggg==",
       },
       {
-        name: "Flask",
+        name: "FastAPI",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEVHcEwAlogAlogAlogAlogAlogAlocAlogAlogAlogAlogAj4A5pJjg8e/N5+RruK/9//+129YAloiYzMX7jjcSAAAAFHRSTlMATI/F5fgQof/7H/r7//78//1L/f8stkEAAAD9SURBVHgBhZNVAsQwCETTFFrqkvvfdYlNWH+/DA7O0PmemKn3nfvAMIoyKaKMw6vdq9Eg4p/dCWZIyASZjbsJMsMfdguL1Bg2/lJJWWp9cOJ12zPbERU+JzD++1k4lolVEZOMTcBczPu05EJHFdgAF9wLovOFQEMm87Zq+Cq4UaKyhGgPcM9l9oIAS3ZXmqB31AIcKrgi+4Ec5LgJNtNjhY3gsD0yBIQKdrgbqBW55h459simyNwmlyGFaDaIx6D4ZUQYlBMM6UJ2IFjWUhcIsKxBUoBYHYBgwMFYd1MiTo4/mFno49GCfLQ4e/5x9r8f5//r/X9ecNf3v13jAVZ6HvOEwCDNAAAAAElFTkSuQmCC",
       },
       {
         name: "Django",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlFFyY16N5NRhzoG24RqB7x8Ok2t8Bdgs-tuMsOBXS2Q&s",
       },
-      {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-      {
-        name: "Postgresql",
-        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      },
-      {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
+      // {
+      //   name: "MySQL",
+      //   image:
+      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      // },
+      // {
+      //   name: "Postgresql",
+      //   image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+      // },
+      // {
+      //   name: "MongoDB",
+      //   image:
+      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      // },
+      // {
+      //   name: "Firebase",
+      //   image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      // },
     ],
   },
   {
@@ -129,11 +169,7 @@ export const skills = [
         image:
           "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
       },
-      {
-        name: "Google Cloud",
-        image:
-          "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
-      },
+
       {
         name: "Docker",
         image:
@@ -149,11 +185,11 @@ export const skills = [
         image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
       },
       {
-        name: "Grafana",
+        name: "Terraform",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAilBMVEX////z8v3u7fzr6vs8JuKtqPFNPONTQ+RcTuXLyPZaTOV1auhPP+S6tvOpo/D09PqiotXz8/rCvvRoW+fPz+lJSbUQEKhCLuJwZOhZSuVlWObX1PhsbMAoKKw6OrBUReRJN+OblO/Cw+EeHqpAQLKjne+EeuyrrNY1Na96cOmMjMyGfevl4/pkZL6HsgL1AAAAq0lEQVR4AbXJRQLCMAAEwMVCFLe6e/v/5+EOya1zHfRoMDTkaDwxJJlSpk/KiRhpk1KpZnM8LJafOV2tpcLVZrt7yz2/5MGStgMMXc/35nhaBcElObXCKE78NH1PIAvJJamVF2X6nRhW6j2X+CIkv2eZzL/TWQXBJX2vxg/etFmYF0k3wq91QGZtVsTAv+Q0sBigS2oJU1aapIEhRxXh2gQYJfoEJgcYzNG7EyYqD0s4JkI0AAAAAElFTkSuQmCC",
       },
-      {
+      {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
         name: "Kubernetes",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
@@ -166,68 +202,74 @@ export const skills = [
     ],
   },
   {
-    title: "Android",
+    title: "BlockChain",
     skills: [
       {
-        name: "Java",
+        name: "Ethereum",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAyVBMVEVHcEwAAD+dnMgyNbtzZMHhwMC4nr4AAKVWYclbVcOMisPau8DOsL+pl+iLfN2m4+7Kq7yVheB/peO5pO5/leK1ou2ejOOVyeaj3ezIq7+xnuud1uqf2OvUtcCa1+3Fqb/Wt8C9pfCmlOfIq792k+ZqhN/zz8KIq/LKtPbMtffCqvK5/Peq8PXwzcJ0lee4+/bZtL3buby7//i4pfLqx8Ky8fP40sC0ne1/o/DHsPSWq+R0m+2Rjs+hnObFqvKYwua2o8fAp8KZzudo4KdvAAAAJnRSTlMABWIdL/x8Dj5RS+u6t1r8/n6H9vXiiJTYqtCqxdjvlNj4nanBb3H8HS8AAAEKSURBVCiRddHXboNAEAXQoRcbjGt6T5YOpoNL2v9/VAY7kllg52mloxmt7gXojqYCe6xHtj0lwYJlQr4NCoWBD2Qb+PfjxhPEONZHUQpPOBuzG3JG/2poYhieMS6EAU4IYhL4uHrdNxmPltJhF6R+7PO0KTkprcN+/1ntZmla0Dgtf1a1bUee43rH3/Sua/p3ZLeD6Dhuc/zqFqDV9gWRXzTq7qK+oLehSJVBef/HxuBgTvX6NhFBXbW4xsfytZdBOOXgI6pMUAxn3QtByEkuAwew8Vxv0CmP6Um6meGHzL5hDhhg0poxtFOfLS7HDMS8xUYcRWwmydz5uAE8J9kty0CxKo6JoNGB/wH7ViVUhhh3ZwAAAABJRU5ErkJggg==",
       },
       {
-        name: "Kotlin",
+        name: "Polygon",
         image:
-          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAbFBMVEVHcEzpImLpJGTqG13qH2HqIWDoImfoNnLoQXLlHWjmIGrrL2nrOmvlI2ngA2jlGGjlF2fhEm3iQoPiPoLiO4HjTovhJXLhKnnhOnrgHHDeGnXcGXTXMZDaGHjXH4LaHX7YOo/YLo7QIJHSOJptOai9AAAAJHRSTlMAspfYo75tb1SRenhfiP/M3+5Lf4s+v3Vfp5HAZqXS2191z1eh+z3dAAAApElEQVR4AWJAAYC65sIIgiAEAiDn7u6Wf45f3LxTrAK9YpikNsOybM0c1/MDqbCQophMqTBGqTCgUBhQKAwo1HCxez72xPyYl2b53YoCe5aWb6xy/SbVTYs/u/7egoG+sCQoEPaF0BtH2BdCGWF/SFPHCPtF6FyOC/1jg31ZN2FUFevGbU2lEa079pl3TQ+B0FlHKFBTFemcgYpes4as56Uj/eEDtxYMh9760gkAAAAASUVORK5CYII=",
       },
       {
-        name: "Jetpack Compose",
+        name: "BSC",
         image:
-          "https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAbFBMVEVHcEwPExsQFRoQFRoRFhwSFRwRFBoRFRwSFhwSFhwSFhwRFhwRFhsSFhzLmwgRFRsSERoRFhwSFxwQFhfwuQnyuwrzuwrutwr0vAvzuwryuwv1vQrxuQvzuwvvuArvuAvxugvsswfuuAf6wQu4d+e5AAAAJHRSTlMAGUBQcoosqtj5/8Dw5gWZIMxkC1R+sT3/oPZu/+QrhsQNGXRISyD+AAABJklEQVR4AX3RV6KDIBRF0WMDArYoUTBg2vzn+ITXbixZn55tB5GkWV4UeZYm2MO4OMnoJDjbzkq+UaskL+VKlZO5buSOpsYvLnc1+FFst1N83hwR29xfZVka7loyBEKutQCScPiMRSqPA5kCtaIT51zRQAFttX5uRQKRIJNEh0VBr9Cj+xi0QCODigFo1kGZogaXP5cCsnWw7Po4qAQDLgOag6DlLTAai/wgCPRkrsiOg3FyToNV66CRPYKrc87P6NU6SFMEN7e4P4BuHUSzD7vRWJThv4YgzRP8sJMJu0fA1Fl1IJ4X46JpRNQnPZkf1rsfFhuzvhv3646IXnrwjuwPstX6NRjjiMmCqsfpbTZ+xJq+e2ci5+8aOx6zftlhsC89k7t/Aco4I4+wwM6UAAAAAElFTkSuQmCC",
       },
       {
-        name: "XML",
+        name: "Solana",
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAASFBMVEVHcExYmddlgeAu1r5Irc5Hrc2JU/WKVPYj6q1reeMl5bOJUfWUSP0k5rNQndRcjdsd9KU4xsR9YO5pfOIt2b1DtctJqs9ybugVOp/+AAAAC3RSTlMAHE9DQ09NMjJDT2HHxPcAAACSSURBVCiRxdDBDoMgEEVRUMtUoFpB5f//tIPTyJOkpJumd3uCPlDqf+l7Fdiwbcuyrg/uKRWlad+vWkzPEyqzLRbnSosp3XE3yeZwTTszHg25nsOT5EJIUX4sV7JN7T+ojMYvG+dCSqgaz75HySqehdiMzFF3vgecNN7lYLQG4y5ajLyvlGo7NcUR11R9fY0f9AL+uBAN6GmI1QAAAABJRU5ErkJggg==",
       },
       {
-        name: "Android Studio",
+        name: "Web3.js",
         image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAPCAYAAAD3T6+hAAAA7ElEQVR4AWNwL/ChKx58Fi5eulwMhOlmYUNTazMUu9bsPMIBEvuYrhjyMUPpABQ70cJCVyD+ALJwb2n0nc/psmuAFgkD8RkgfgelFaht4f26hma9quaOdSBxkKX/vBh0QL6FWupEFQtBlgAt2wTyIYgNxPMPHDriBpI7tmHlo09pUp2UBymmL8NBPgRZDLNwz74D8nv2HXwKCmYgvZzYhIXMISp4Qb7cd+BQPIgPshBq+TYgvgUSp3o+BPkI5jsQBomBLANZDJKjWcaHWHrABIRBwQmkD4PYNC9pkH0LZNfTrWgDBSkxCWf4F94A/34JXuHyFTgAAAAASUVORK5CYII=",
+      },
+      {
+        name: "Ethers.js",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAP1BMVEVHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC6E+JdAAAAFXRSTlMAIGF+bSrl//OMnUm5WKwNNtUWxQdkqdfgAAAA1ElEQVR4Ac1QRWJFIQz8SBgcAu/+Zy08SX3dzgYZibz+L5Q2ln7hrAPgzY9c2JQH4g9cAnKhVOH1F6b1xKhjXytmSb29cz3yyutXV26lc1TC8XrPcNx9xbyUedyZE5hpPElHG2W5jbTC/ctUS36JM7x9fu/o4cHXOhguSflLfwg54YpMe30p/8QawIrTXF/SEAF1yBKNGj04GeWIH1bWIru9YFErhi/SL2lb1JYp6rQ7Dx6sabQTQ/VijS2J7sHIZOaZa40xBmMTXb0KBvWFZX/9Md4AefgJrvqjyEoAAAAASUVORK5CYII=",
+      },
+      {
+        name: "Truffle",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAH9UlEQVR4AZ2WA3Sk2RaF//bYtm3bExsT223biNO2bbujSWc6zdh2Uort/fatV5OpNVPNs9ZXutj7nP+ipFsNN30zycvURnLVM33E/kf9nxx+0h/nb2a7dLqH/7oFI8YtnxcwZtJkOzc954++eZLdB7w0cOiNJ7wdYZffjITw8y6/m0xw/s344iQ3n/pdazb0njofh30ZSdiel4otWYl9GxJim5bv3pkYOHve7BHG1q8JIx/f8/Ada1PUTBgYQnE7kuZmYNa3NigcRaWlONosx7qmCpysrcDZ7HREpiUhtjAHUcpy7C/J7tt88ljBhohlM+JOnnk6aOI0CcDtiU/xCpDmjZl4j6eR5VyKNzN7bIxYhsaWFmxrqsT+ZhlyCguwZMZcTPX0R4CFHUb/4YKFYydj//4DiK4qxvHkq72Htu2KL8zJ/fJFaditmzh3+JhUUVI6ZKKbz3x3A/NOlh3TfEagVq7AxfZ6rK4vRV19PQInTMMkd1+c2HMANAph0vlXY7j+borASdMRV5KPsxcv4OiOPQWtLa2/ZiQl39xEX1+fJILZuvhZ2LW4iklp4NDWnRCxoq4E1zobce38BbXgqsBQXI2/ABoFK9WP0y9G2LB8FXJa6rF1xRqcjI7OqQM+LOluu7GJotw8SVZR+erC8VOyhICYTGSXcvkqegAsUOWjuKcdkYePwfFnQ4ROmw2VXI7AidPUoi6/mYDj2GaA5QuCUd3TgeiTpzF1+kxEqSoPA7ivh0nqin5nF2Pi5o2yc4XaAPE1t0VBVg561QbykNnVgqzEZHiZWMHfyh7ZKWmQV1VjfdhSjHP2RICVA2b4j0JGUgpEJET/CT9bR6xMudhehE7bxPYG3VUAIHj62K59GW7/lJRC1shMToWI1XwER7gAu9s7sIIZiirMGTEOZUXF6O3tRY1Cqf7cUFcHEd3d3dgQvhRehpYIiT+H+M6GAwCG6jTACSQAxluXr+5w/tWo34CoROSR4xBxsa0O05U5aEMv5JVV4KOC4y+GmMjFGHn0BFRcqD0U7enpQX1NLY7s2KNOYLStM9amX8GxFkUpgJfJf7Nva22TOHjGqkWhcNIyIMyEc7t1dnSgra8Xs5S5ONIkgwhltQxreDa4G1qIxap+BMGTZ6r7cyvDVd9UPdfWJSuxtaYEx5rlLQB+0Glguu9Iqbure8Py+UFw+lcFfMxskXTxMkSkdzTCrzoNCW21ENHR3o6LsXEImTILAdYOYt30jx9h64QtS1dBUaPCHFUeLrXVdQDQ02mADOQ23Lc+dEn/BBrU2c0dNUFdYhGRLUp4VKfgKCvR1tcDEZ00Ul5UjGt/JSDuTCQu/xnP7yXo7e5GdKsKo+UZqO3pqgfw+fUMDCA7D23bCe01oF2JlQtD0NTQABF/tdbCpzoVkxRZakMybrku9EET6CMNNCeObZeqZES1qMBIZZKPE50GBIuTEi7Bw8hCiOpEPCKlTA4RVd3tWFtXCreqFDhVJmGMPFO9VYNrCjCDi1VUyYNtp5sV6OLCLC0o3CwuqezU9OtuQ986rl5x9LLsOg2Iw2b28LEQRru7/p+zsqcT51trsKm+TC2+kAfWstpitbC8uwMi8jKyxIE1bs+6TdLjDz50XQOfkJoTew/oFNdeE2Jhrg4MU58RHW1tuF70MnNxKM0MGF1v94Pe1xx7/ZOQ3E1ONNTVc49P1bkWNPRfPj48KRdNmArefEi8cBG8/VBaWKTOOP5cNNYGR6h3B4XP8nq/l2NvaEBgRVoLs3PFbaf9KG5oRPTz4Hnga/GHOI7VFaKgSEL0aWNfW6L+k8O4aRW2E+SkpWOq93BOosPEDQyRf/++g9yjyf7GBhrrG6TmpqbnVQrFOXGWlxeXIHTqrP7J+X67XCGvaWV/4/jkuRelA5u3S6uDwl6POXE6Rmw5GsLRnXsxyt5VVON2jCSST9XiehS/1Rg0YIA003uE5PSb0fPcOhtPHzjcWlVWjqLcfGxbsQZjHNxuJtxJDpI3b5D5jSNk9kKJK1zyNrO9b6Sdq8f8sZPSKd4nVnb0sZPi4hFHtlh8/yxCI8s+jkn3NLbysfv+9/vuSFgmU0jVMrngAxIkkyuOyJWqhKLCosq4yJi+7Ws2YAWP5Dm8G8SNN91/FAInz8DmZasQezaqtyC/IJ/9D3FcoGYOMecdGXidjCPrONkxEq9Q1STKFcrM8vLK/KLC4sKC/MKCoqLi3PKKykyZQpnE9jiKH+HnNZqxr9/QgJue6UvkRfIokci9mu9Pk0E+pjaSv4XdoPHOXs/Fno18YF3YkjdYhRdq6xueSklMfmXHmg1fbVq68uu4yOgX6xqbHlwZGPr0KDuX15x/MXzG/NNvB7rrmw3kPI+TwUTS8LBG92Xx5SxJJh6aRhsST44QNyJpJthAnuVdH0G+JBL5lMS7/mayme/vEdF3Eokj88k95EGyUYhpGZhDosh28cWaHCAPaBo9yVGyhKx25bnN9yfJYU1ltpAfNH2/J1fJWE2bRAI15u3JUPIIOUHe0DKwlOwko8QXfbLLXc9siKbRneSQTPItuZGB70gimaqVYSA5SVzJsBsY2E3G6jLgRSLIYuJDJE11DpKR5BT5gEgaI/vc9U2Hkr8nDyIjtMQeITFkkpbJpWQtcRRf3iRONDBI0/glMSTvEFfu48GaZ2tC9pPR7iytpu8rxIXig7QMGGlVTnA3Ga9J6jMiEQuyhIT/D7srfLh5CllYAAAAAElFTkSuQmCC",
+      },
+      {
+        name: "Hardhat",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADLElEQVR4Ae2VA5QkSRiEY+yzbdu2bdu2757Otm3b1toa22hVtV2xf3W+UfXsVM9a8d7XXfwjMiuB5VquJUr8B7nUcBB9uFN4kzq+oRffyvHbcnyvcBiJfCwoidGrYshh0fH5/Dd2Y5ukhnclQNgugBClD+/QjW3n3diB0qQLLwkJQ7M1tpIQXiJROnfmTmwR60J1rBuMC9TTTaJOMObOtgtSTR+2wEjkb8V2kQ44oh2gSdwxdPGnHs7llx9tmklvOOjBdshEgR6sGW5Fm8Beku70op01WVxj9SKedvrRdDUXMoPB2RZwYC3YKdyEX0JNYC/hlqG7/5Lz81lcXMxjjz+eTzy6c0bjwnDjVwynUAtOCzaAA4m0pRca83s2S0qKewOkqJi4ik0A1ZMJB87AUCKR5a9DhcCBRDsHF0l4wL33KBTzwQGuv+4AJrUs2wAypipNL1glZgf6qkErsZ7BRbrrsrjPXukBbrh+f3paCob/BBrUuGrGwbDKW4Xn9UrQSsI5uEioG2wuz+JLT+VyzTWKePoZR/O7zzdmd30xI84cm8+gxlWwES/CKr0C0/Vy0ErSk17kgfvy+PQjuWyRID0NRamp+OHbW2Q0EEONYKAeM63fP1ubhahAK4aeXiTiAPfYtZC7C9dec2CKmCs7gwBqYPtqEOPnyEGvfJOxmmcmaEUT5lSofHwWV165mCedciybyssyXqKl9fRWpgb46uhVaDrW9cwA0xm+2POP5/KbTzcZ0R7hr1U9G6rBuoMCuKfLjXL1QNBcgNrMKWMzrzXrJ7JFWq4a5pyMtSESV2xEHd+o3W7hYKjg35jeoA+Xpy7q5qajWh1qUb0g5/NsFu9J1TJCzTAi7TCkpiFeRuq+eMNcGv31oFYhlPeO/t6BqMKMtJt7GySmdE9TeKbDGHjsrYYR7caZMOWrwt56JR73VmG0/Pt0CSMYKogKFmhQYeyQlc6QZ6URytCCXxgjPC7sM8c9IVSH9bRKHCDm50qhW+X/UUn9mgzUT13T8IO8/Ifwn5yPkn9BjuVa6t5UfGo+65qKR+X4Vs80nKNNxQHuGVjPrI3lWq7FTbMBuXvPBwxUz54AAAAASUVORK5CYII=",
       },
     ],
   },
   {
-    title: "Machine Learning",
+    title: "Database",
     skills: [
       {
-        name: "Python",
+        name: "MySql",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
       {
-        name: "Tenserflow",
+        name: "MongoDB",
         image:
-          "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADoElEQVR4Aa1XA5AlMRDtMtfe/TNrzPy1z7Zt21euY/ls+658VzrbxbNt23auX+Vvzf5VskjVq8mkO3mdTndA2sVlJ5CZ2o+i05aSYR/j/7tkul8DqKMNMuhAl2qsGKm5jA1kuO9TTJqgmHTBRIzUEpAy6ECXDVqPvlTlEpkTzLObTab9tYiU/3XgGGNaX/h/FkUmBVNlCncu4M6nKUbOtFwilw2UL0dfjGGmnKIYu0DT5VZ9crkfyBm4KyaPdgMVGwFgLIxppNdTr7dpP6YYhbujmDDcErSoDYA62lRGwBOPy4+LwARftvKccuYGIyBF0LD6gj4PB1BHG2RqIwz7LLioVEGw6ARasCWobaGgewMFfRkOoI42yNT9JcdM8irR6dns+m8VBhwAV1s8i6M9BP0cIejtUAB1tEEGHYUB4ACXlV3MAM5zpett                                                                                                     QSHs5unNBX1nwncgl0AdbZBBB7oaS7G+KPDi2aKnSvdH8KAZmYLO9hH0bTiIvYA2yKADXfUy2E/ITIsjbJ1aax/EM5vYWNCnYYLeM+TMAdTRBhl0oKsZC1Y/4jxerpV2Lv5u7+q99q8Zr4Z4x8K2Lh59hQHgBDcZ9nGlB8IsQTlZ3u5/z3jA0X9rgOOR7yw72VtQZqY6GMGJA4ytvauM/mB2afN8QXcHIO8dl1/pJwk/eAyA7EZ/QQ1zORh1ssG6g/x/q2/AQCbxkH3k78legvZ3x9pX0QD3G30DWrIB94oZANLDTL65E9eHOwbcZAMa6RugtwShPFi9HEFXefCvxch2cFCuaSd3Q7RBdqmvoMJs9NFcAnUQOscuCH95sgCkmP2yto5RLHOywNYKQr00BAKSBU1uKskQgPhu6iBoYWvvtilNpa6pl4b6GxHSKo9T8VxfSQSsZPfPaYXUBCCDDnT1NyJsxeyuZ0ojDM9uOKqhdD82neEdAa6PlDEBGXQMDXJs/9iKUbhxo+Iwcs6DGP5u4bUXox0DxBi0QaY+BwBw4QAsKmxJDm+d3xXZ4OyKqRmC9nZzDNjNwWmnQwYd7eNYcSFRpGV8mvQCkJKOY1j/xgyuUiWwwJcF57WWAvBLdgzw1Yh653J6DleyCi6lKbiU6nlBGoC6Vtrhwqt+rBhp+tfyrEwJ7Wu5VV/3YVLI1p5RPEwQ8YD6YYJHDh47lSrhWSHVfpqhL8bAM6/KxXDnYZ+ACyv1OEWeo2+NFZeViK2TiZbhAON1v4fjFEAdbZBBpzLP8//gWaNQ3aj4mQAAAABJRU5ErkJggg==",
       },
       {
-        name: "Keras",
+        name: "PostgresSql",
         image:
-          "https://miro.medium.com/v2/resize:fit:600/1*DKu_54iqz6C-p6ndo7rO3g.png",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJFBMVEUAAAAAAAA/Pz9/f3+/v7////+///9/v79/f78/f78/f3+/v/9q2MrtAAAAAXRSTlMAQObYZgAAAUhJREFUeAF8kTVCBDEUQAMcAG9w63FvkGBDg1uHWwmsTIWsDiU+7fqbCrfLkeD+4y/JV6EkW420bJFdrjdqWym7K3IapJyQC3VZCuT1hUOb496UbwxctepBH5B40NMqyCyRbgABAPw20RqRZwF3ACTXoFPkA8wAgIRhDUgYABB7exH1um3gsMdMvoJ19wqkJjfNhFJqg2Meb0LC7bOiZSLDgqhFXGty7FiWyDA0IAapNcf2KccewLE1YDVqdSnXZ96BLxruVKAZDXxA/NBXJoSogqhJv3b9cVOHrx2ZZgbg+kIoyTVha9MAOOrMznrROtc0ATA4Nj6stRKvaHcMSM2wXyuEKLQupXlkQHJ8vCtLZ1mWS9ltKrCjVTyXIaci1wIV6ru8xFj2LzAhnvUJ6GrEvoA12BOfpY/k0xJRBERSQgRQBBihjgIAWSq3/j+GC6MAAAAASUVORK5CYII=",
       },
       {
-        name: "Jupyter",
+        name: "Redis",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
+         "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAflBMVEX/RDj/PjH/Oiz/Nyj/NSX/QTX/Oy3/MiL/eHH/oJz/ubb/w8H/sa3/g33/nJf/3tz/////p6L/LRz/tbH/1NL/bWX/iYP/9PP/+/v/UUb/7+7/enT/KRX/IAP/X1b/6ej/cWr/jYf/TUL/Ign/lpH/VEr/ycf/ZFv/vrv/kIu2/yqSAAABA0lEQVR4Ab2SRRbDIBRFceJ58aTusv8FVoAWTjtu7/TCd/IHKOOCc/otpNI8ipM0zXLBPxRXRYkXVR06qhqEtIGVHT6omP/YwzCMAOJn+LH2Pyc8mM0rANli2QJYybet10CxjJ8vaqKecTa+IbUtd/sDHnSU1BmAoyTeam3ypsu6PtgAAXwOw7jGky0LfjLbzADLabHzcekKhtjaZqGHVrzcBEu5zNo2O+pFiUK5NuVg+gSQL2utNS0B6sIKW8Q0PCOep00GIHFReWpcvzjhzajcR5bhQVZTP34/ILkzxROiUzjmft3igrI2I74Y1R4Z8ajEpRC7a9ETLUkI95ekTA8/5Q6m7xhXf5X61wAAAABJRU5ErkJggg=="
       },
-      {
-        name: "Google Colab",
-        image:
-          "https://assets.stickpng.com/images/63c2e4c9c4baad4ce22bf9ef.png",
-      },
-      {
-        name: "Sk Learn Kit",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
-      },
+      
     ],
   },
   {
