@@ -76,7 +76,7 @@ const HeroRightContainer = styled.div`
 const Title = styled.div`
   font-weight: 700;
   font-size: 50px;
-  color: ${({ theme }) => theme.text_primary};
+  color: #302d2dff;
   line-height: 68px;
 
   @media (max-width: 960px) {
@@ -118,7 +118,7 @@ const SubTitle = styled.div`
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 42px;
-  color: ${({ theme }) => theme.text_primary + 95};
+  color: #615a5aff;
 
   @media (max-width: 960px) {
     text-align: center;

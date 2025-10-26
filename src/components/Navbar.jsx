@@ -5,7 +5,7 @@ import { Bio } from "../data/constants";
 import { MenuRounded } from "@mui/icons-material";
 
 const Nav = styled.div`
-  background-color: ${({ theme }) => theme.bg};
+  background-color: hsl(271deg 75.92% 40.81%);
   height: 80px;
   display: flex;
   align-items: center;

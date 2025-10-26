@@ -1,13 +1,11 @@
 export const Bio = {
   name: "Strong Blue",
   roles: [
+    "BlockChain Developer",
     "Full Stack Developer",
-    "Android Developer",
-    "UI/UX Designer",
-    "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I’m a talented and versatile developer with a proven track record of creating innovative, high-performance digital solutions. I build seamless experiences from front to back, combining elegant design with strong, scalable architecture to deliver products that work beautifully and perform flawlessly. My expertise spans modern web technologies, blockchain integration, and system design. I’m passionate about writing clean, maintainable code and solving complex problems with creativity and precision.",
   github: "https://github.com/StrongBlue0703",
   resume:
     "https://drive.google.com/file/",
