@@ -4,7 +4,6 @@ import emailjs from "@emailjs/browser";
 import EarthCanvas from "../canvas/Earth";
 
 const Container = styled.div`
-  margin-top: 40px;
   display: flex;
   justify-content: center;
   gap: 12px;
@@ -133,18 +132,18 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
-        form.current,
-        "SybVGsYS52j2TfLbi"
+        "service_n88wt5o",
+        "template_g0g7zn4",
+        form.current,  // ✅ now valid
+        "6bnst5k65TSAOFX4F"
       )
       .then(
-        (result) => {
-          alert("Message Sent");
-          form.current.resut();
+        () => {
+          alert("✅ Message Sent Successfully!");
+          form.current.reset();
         },
         (error) => {
-          alert(error);
+          alert("❌ Failed to send message: " + error.text);
         }
       );
   };
@@ -152,22 +151,28 @@ const Contact = () => {
   return (
     <Container>
       <Wrapper>
-        {/* <EarthCanvas /> */}
         <Title>Contact</Title>
         <Desc>
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm onSubmit={handleSubmit}>
+        {/* ✅ ref added here */}
+        <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" name="message" rows={4} />
+          <ContactInput placeholder="Your Email" name="from_email" required />
+          <ContactInput placeholder="Your Name" name="from_name" required />
+          <ContactInput placeholder="Subject" name="subject" required />
+          <ContactInputMessage
+            placeholder="Message"
+            name="message"
+            rows={4}
+            required
+          />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
       </Wrapper>
     </Container>
   );
 };
+
 
 export default Contact;
