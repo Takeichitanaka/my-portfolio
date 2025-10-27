@@ -78,7 +78,7 @@ const SocialMediaIcon = styled.a`
 `;
 
 const Copyright = styled.p`
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   font-size: 0.9rem;
   color: ${({ theme }) => theme.soft2};
   text-align: center;
@@ -88,7 +88,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Strong Blue</Logo>
+        <Logo>Strong Dev</Logo>
         <Nav>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
@@ -110,7 +110,8 @@ const Footer = () => {
             <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Strong Blue. All rights reserved.</Copyright>
+            <div>takeichiinoue@gmail.com</div>
+        <Copyright>&copy; 2024 Strong Dev. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

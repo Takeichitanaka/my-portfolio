@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 import EarthCanvas from "../canvas/Earth";
 
 const Container = styled.div`
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   gap: 12px;
@@ -151,7 +152,7 @@ const Contact = () => {
   return (
     <Container>
       <Wrapper>
-        <EarthCanvas />
+        {/* <EarthCanvas /> */}
         <Title>Contact</Title>
         <Desc>
           Feel free to reach out to me for any questions or opportunities!

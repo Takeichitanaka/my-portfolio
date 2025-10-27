@@ -21,6 +21,7 @@ const Wrapper = styled.div`
   align-items: center;
   flex-direction: column;
   width: 100%;
+  background-color: #ddd;
   max-width: 1100px;
   gap: 12px;
   @media (max-width: 960px) {
