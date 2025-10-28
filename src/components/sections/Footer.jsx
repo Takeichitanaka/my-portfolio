@@ -96,7 +96,7 @@ const Footer = () => {
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
         </Nav>
-        <SocialMediaIcons>
+        {/* <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display">
             <FacebookIcon />
           </SocialMediaIcon>
@@ -109,7 +109,7 @@ const Footer = () => {
           <SocialMediaIcon href={Bio.insta} target="display">
             <InstagramIcon />
           </SocialMediaIcon>
-        </SocialMediaIcons>
+        </SocialMediaIcons> */}
             <div>takeichiinoue@gmail.com</div>
         <Copyright>&copy; 2024 Strong Dev. All rights reserved.</Copyright>
       </FooterWrapper>

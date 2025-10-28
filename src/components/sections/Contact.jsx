@@ -134,16 +134,16 @@ const Contact = () => {
       .sendForm(
         "service_n88wt5o",
         "template_g0g7zn4",
-        form.current,  // ✅ now valid
+        form.current,  
         "6bnst5k65TSAOFX4F"
       )
       .then(
         () => {
-          alert("✅ Message Sent Successfully!");
+          alert("Message Sent Successfully!");
           form.current.reset();
         },
         (error) => {
-          alert("❌ Failed to send message: " + error.text);
+          alert("Failed to send message: " + error.text);
         }
       );
   };
