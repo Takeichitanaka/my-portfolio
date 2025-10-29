@@ -1,12 +1,12 @@
 export const Bio = {
-  name: "Takeichi Inoue",
+  name: "Takeichi Tanaka",
   roles: [
     "BlockChain Developer",
     "Full Stack Developer",
   ],
   description:
     "I’m a talented and versatile developer with a proven track record of creating innovative, high-performance digital solutions. I build seamless experiences from front to back, combining elegant design with strong, scalable architecture to deliver products that work beautifully and perform flawlessly. My expertise spans modern web technologies, blockchain integration, and system design. I’m passionate about writing clean, maintainable code and solving complex problems with creativity and precision.",
-  github: "https://github.com/StrongBlue0703",
+  github: "https://github.com/takeichitanaka",
   resume:
     "https://drive.google.com/file/",
   linkedin: "https://www.linkedin.com/",
@@ -399,7 +399,7 @@ export const education = [
     id: 0,
     img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAdVBMVEX///8gM5EAH4sAG4odMZAYLY8AHYoAIYsTKo4JJYwbL5APKI0AFokAGIlHUJ27v9n3+PsAAIXJzODq6/Sip8vh4+5TXqQ5R5mFjLxfaqsAB4bX2egmOJNoca5weLEtPZZLV6GPlcEAD4err9B6g7eZn8eyt9VDGoRaAAAD2klEQVRoge1Y7baqIBANARVE5WimZpqax/d/xGtWBxT8qs66667bXv1JYDtuZoYZdrsPPvjgl8F9X/N0n/HXqaPmxFiiPC4Yi6vsNWr/AB0KAGzG3AYAlMBD8Dz1JXYx6GEWg4HGvD3GzHuSPvAMCh4wcmkkMX6eY5iG26l5cxTUV/ZUcDN5wD5+b+XOTgQMYTyUkey+a1ZGm7i/GQVjWDdlGlcZwbXOWafQMKQw3JUpoGYEsfXS5OMPf7DnoWfpXts5a7FM2yPVcCPbhBCcYy8GEBq2+gZjHXtujRdSxz01bcb7gOc8uxQUKvzmONB0aMaiIvOcKIEeFHjsTnBZd5+NqA3SalNU2HzZw6lsyWcyc/i5jr2fnBsW7mAyYgvBGuPh9Hx2vo8H0/FhlrsaOAo12nlTdmHsyAuM6c/sRCHyd+LTcsLmpcyO6pkPTeUtsuM1+Y578hpn2tsD2VNwvO4c4/I2IWsyh5XSNArW5ulQjidnKpQCKd8hsv6AHKyDEzYVknrWlhMgkRLGhMOEkqtQtIG7k12sRLF2SmuK98Mt2b9bKgkDtXqW4vBZCDUVQKwllWacS1llo+Gd6SKyaakZD4QqCGzk3nHwY5nW1SuRn4lavi1B8jRX89mpiCB3exkl6eKoovOz2BO6mXuXifOLqs4YGkiMBltLtKgVyRER9dW1cFVqkXMSrK2/w7Y4W1KMIksxzR8UUog6jBb+Mn/Y5gTadHDcQcVdLkqx0pUqNJmvArPC0dQwaozulWqll8/Np+n9kmmqo66CUZxNS34132r0u5sdXKxdAgzF0SfIO3rnS5NFefo1Qd2la+VYnyS/mqIU4P7JmZmuWK5uqAQ8MqbRlO8Cqua+WtPLkLtFfpgzROctchDpIHqiKJ6RpCdXHCyExHDr45GZ3Y9g1cVIeQupyNbsZOdUkHWrjzU0iFoy8rxqgyi8Imur1FILcMe7skd0LDfCVn3K936/OvMvVT7mVt7l53jcoVzZo9PIbkTI4bKtm+uF2jvGkJ6kEcAjalZtZ75hbw/re2zR0f/khbuLqDTBNKzyxXuLb21L2kuyuj2chj/ReSI4V+mvRQB17Ihd3sCtNng94FJHsxaJmjGhrmh7DuU4Ku2txeQMouNIcPzE9dAkkmEv/jbBe4SD4kFTU72ESja9fuHGTwcuhRL13ss9qJHV0/1VSA0wfsMt7hAcPXTB6fLsrcgfuixeZTyByyMH1M8ePTMI7sUKAm+XXDTY2lbwVfDTnfyNOUsgvqXGzd313yf3/lnyuyy/tKG/6YoA0yvs3yAPY++GxQr5gw/+L/wBrBAzSnFMc5YAAAAASUVORK5CYII=",
     school: "Osaka University, Osaka",
-    date: "Oct 2021 Apr 2012 – Mar 2016",
+    date: "Apr 2012 – Mar 2016",
     grade: "Grade: 3.8 / 4.0 GPA",
     desc: "I earned my Bachelor’s degree in Computer Science and Engineering from Osaka University, where I developed a strong foundation in software engineering, distributed systems, and cryptography. During my studies, I explored emerging technologies such as blockchain, cloud computing, and secure web architecture. My final year project focused on building a decentralized identity management system using Ethereum smart contracts.",
     degree: "Bachelor of Engineering – Computer Science and Engineering",

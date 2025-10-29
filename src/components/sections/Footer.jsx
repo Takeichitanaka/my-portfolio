@@ -110,7 +110,7 @@ const Footer = () => {
             <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons> */}
-            <div>takeichiinoue@gmail.com</div>
+            <div>alex28030707@gmail.com</div>
         <Copyright>&copy; 2024 Strong Dev. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
